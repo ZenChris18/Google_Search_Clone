@@ -1,0 +1,12 @@
+.search-bar {
+  display: flex;
+  border-radius: 15px;
+  padding: 5px;
+  width: 450px;
+}
+
+.maintext {
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
