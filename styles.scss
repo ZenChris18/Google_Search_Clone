@@ -1,13 +1,18 @@
+// Search Bar
 .search-bar {
-    border-radius: 15px;
-    padding: 5px;
+    border-radius: 30px;
+    padding: 15px;
     width: 450px;
 }
 
+// Google 
 .maintext {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
     text-align: center;
 }
 
+// Links on top right page
 .links {
     text-align: right;
 }
@@ -19,6 +24,7 @@ form {
     align-items: center; // Center align the items horizontally
 
     input[type="text"] {
+        margin-top: -50px;
         margin-bottom: 20px; // Space below the search bar
     }
 
