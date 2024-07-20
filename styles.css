@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 
 a {
@@ -43,6 +44,38 @@ a {
 .logo-image img {
   height: 100px;
   width: auto;
+}
+
+.find {
+  margin-left: 30px;
+}
+
+.logo-advance {
+  text-align: left;
+}
+.logo-advance img {
+  margin-left: 15px;
+  height: 40px;
+  width: auto;
+}
+
+.advance-text {
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid;
+}
+
+.advance-forms {
+  display: flex;
+  flex-direction: column wrap;
+  margin-left: 30px;
+}
+
+.advance-blank {
+  width: 500px;
+  height: 25px;
 }
 
 .links {
