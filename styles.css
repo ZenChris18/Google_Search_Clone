@@ -1,15 +1,35 @@
-.search-bar {
-  border-radius: 30px;
-  padding: 15px;
-  width: 450px;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.maintext {
-  font-family: "Poppins", sans-serif;
-  font-size: 80px;
-  font-weight: 500;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-bar {
+  border-radius: 30px;
+  padding: 15px 15px 15px 40px;
+  width: 450px;
+  border: 1px solid #ccc;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container .fa-search {
+  position: absolute;
+  left: 15px;
+  color: #888;
+  pointer-events: none;
+}
+
+.logo {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 150px;
 }
 
 .links {

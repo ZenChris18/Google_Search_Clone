@@ -1,17 +1,39 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+//links
+a{
+    text-decoration: none;
+    color: black;
+}
+
 // Search Bar
 .search-bar {
     border-radius: 30px;
-    padding: 15px;
+    padding: 15px 15px 15px 40px; // Add padding to the left for the icon to have space for the search icon
     width: 450px;
+    border: 1px solid #ccc; // Optional: Add a border for visibility
+}
+
+// Search Container
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-container .fa-search {
+    position: absolute;
+    left: 15px; // Position the icon inside the input
+    color: #888;
+    pointer-events: none; // Prevent the icon from interfering with input
 }
 
 // Google 
-.maintext {
-    font-family: 'Poppins', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
+.logo {
     text-align: center;
-    padding-top: 120px;
+    padding-top: 150px;
 }
 
 // Links on top right page
@@ -20,7 +42,7 @@
     margin: 10px;
 }
 
-// Search Bar spacing
+// Search Bar
 form {
     display: flex;
     flex-direction: column;
@@ -34,7 +56,6 @@ form {
     input[type="submit"] {
         margin-bottom: 5px; // Space below the submit buttons
     }
-
 }
 
 // Button
