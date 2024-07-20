@@ -1,17 +1,40 @@
-.search-bar {
-  border-radius: 30px;
-  padding: 15px;
-  width: 450px;
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-.maintext {
-  font-family: "Poppins", sans-serif;
-  font-size: 50px;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.search-bar {
+  border-radius: 30px;
+  padding: 15px 15px 15px 40px;
+  width: 450px;
+  border: 1px solid #ccc;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-container .fa-search {
+  position: absolute;
+  left: 15px;
+  color: #888;
+  pointer-events: none;
+}
+
+.logo {
   text-align: center;
+  padding-top: 150px;
 }
 
 .links {
   text-align: right;
+  margin: 10px;
 }
 
 form {
@@ -20,11 +43,25 @@ form {
   align-items: center;
 }
 form input[type=text] {
-  margin-top: -50px;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 form input[type=submit] {
   margin-bottom: 5px;
+}
+
+.button_space {
+  display: flex;
+  gap: 20px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.button:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
