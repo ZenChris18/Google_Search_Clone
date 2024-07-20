@@ -30,10 +30,25 @@ a{
     pointer-events: none; // Prevent the icon from interfering with input
 }
 
-// Google 
+// Google Logo
 .logo {
     text-align: center;
     padding-top: 150px;
+    img{
+        height: 105px;
+        width: auto;
+    }
+}
+
+
+
+.logo-image {
+    text-align: center;
+    padding-top: 150px;
+    img {
+        height: 100px;
+        width: auto;
+    }
 }
 
 // Links on top right page

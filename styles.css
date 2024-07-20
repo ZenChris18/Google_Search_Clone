@@ -31,6 +31,19 @@ a {
   text-align: center;
   padding-top: 150px;
 }
+.logo img {
+  height: 105px;
+  width: auto;
+}
+
+.logo-image {
+  text-align: center;
+  padding-top: 150px;
+}
+.logo-image img {
+  height: 100px;
+  width: auto;
+}
 
 .links {
   text-align: right;
