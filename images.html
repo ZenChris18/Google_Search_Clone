@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Google Search</title>
+    <title>Google Image Search</title>
     <link rel="stylesheet" href="styles.css">
     <!-- API for font of main text -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -15,11 +15,12 @@
         <a href="advance.html">Advance Search</a>
     </div>
     
-    <div class="logo">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+    <div class="logo-image" >
+        <img src="https://cdn.vectorstock.com/i/500p/05/60/google-image-icon-search-vector-50150560.jpg" alt="Google logo"/>
     </div>
     
-    <form action="https://www.google.com/search">
+    <form action="https://www.google.com/search" class="global-form">
+        <input type="hidden" name="tbm" value="isch">
         <div class="search-container">
             <input type="text" name="q" class="search-bar">
             <i class="fas fa-search"></i>

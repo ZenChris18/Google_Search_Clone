@@ -1,9 +1,10 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
-//links
-a{
+// Links
+a {
     text-decoration: none;
     color: black;
 }
@@ -30,10 +31,84 @@ a{
     pointer-events: none; // Prevent the icon from interfering with input
 }
 
-// Google 
+// Google Logo
 .logo {
     text-align: center;
     padding-top: 150px;
+    img {
+        height: 105px;
+        width: auto;
+    }
+}
+
+// Google Image tab
+.logo-image {
+    text-align: center;
+    padding-top: 150px;
+    img {
+        height: 100px;
+        width: auto;
+    }
+}
+
+// Google Advance tab
+.find {
+    margin-left: 30px;
+}
+
+.upper-text{
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.subtext{
+    font-size: 12px;
+    padding: 7px;
+}
+
+.logo-advance {
+    text-align: left;
+    img {
+        margin-left: 15px;
+        height: 40px;
+        width: auto;
+    }
+}
+
+
+.advance-text {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid;
+}
+
+.advance-forms {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 30px;
+    max-width: 700px;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.form-layout{
+    display: flex;
+    gap: 50px;
+}
+
+.advance-blank {
+    width: 500px;
+    height: 25px;
+}
+
+.inside-forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 // Links on top right page
@@ -42,8 +117,8 @@ a{
     margin: 10px;
 }
 
-// Search Bar
-form {
+// Search Bar with specific class
+.global-form {
     display: flex;
     flex-direction: column;
     align-items: center; // Center align the items horizontally
@@ -59,16 +134,29 @@ form {
 }
 
 // Button
-.button_space{
+.button_space {
     display: flex;
     gap: 20px;
 }
 
-.button{
+.button_space2 {
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+
+.button_advance{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#77C3EC;
+    color: white;
+}
+
+.button {
     padding: 10px;
     border-radius: 5px;
 }
 
-.button:hover{
+.button:hover {
     cursor: pointer;
 }

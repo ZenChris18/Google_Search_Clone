@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Google Search</title>
+    <title>Google Advance Search</title>
     <link rel="stylesheet" href="styles.css">
     <!-- API for font of main text -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
@@ -15,19 +15,68 @@
         <a href="advance.html">Advance Search</a>
     </div>
     
-    <div class="logo">
+    <div class="logo-advance">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
     </div>
-    
-    <form action="https://www.google.com/search">
-        <div class="search-container">
-            <input type="text" name="q" class="search-bar">
-            <i class="fas fa-search"></i>
+    <div class="advance-text">
+        Advance Search
+    </div>
+
+    <form action="https://www.google.com/search" class="form-layout">
+        <div class="advance-forms">
+            <p class="upper-text">Find Pages With</p>
+            <div class="inside-forms">
+                <div>
+                    All these words:
+                </div>
+                <div>
+                    <input type="text" name="q" class="advance-blank">
+                </div>
+            </div>
+            <div class="inside-forms">
+                <div>
+                    This exact word or phrase:
+                </div>
+                <div>
+                    <input type="text" name="as_q" class="advance-blank">
+                </div>
+            </div>
+            <div class="inside-forms">
+                <div>
+                    any of these words:
+                </div>
+                <div>
+                    <input type="text" name="as_q" class="advance-blank">
+                </div>
+            </div>
+            <div class="inside-forms">
+                <div>
+                    none of these words:
+                </div>
+                <div>
+                    <input type="text" name="as_not" class="advance-blank">
+                </div>
+            </div>
+            <div class="button_space2">
+                <input type="submit" value="Advanced Search" class="button_advance">
+            </div>
         </div>
-        <div class="button_space">
-            <input type="submit" value="Google Search" class="button">
-            <input type="submit" value="I'm feeling lucky" class="button">
+        <div class="advance-forms">
+            <p class="upper-text">To do this in the search box</p>
+            <div class="subtext">
+                Type the important words:  <b>tricolor rat terrier</b>
+            </div>
+            <div class="subtext">
+                Put exact words in quotes:  <b>"rat terrier"</b>
+            </div>
+            <div class="subtext">
+                Type OR between all the words you want:  <b>miniature OR standard</b>
+            </div>
+            <div class="subtext">
+                Put a minus sign just before words you don't want:  <br><b>-rodent, -"Jack Russell"</b>
+            </div>
         </div>
+
     </form>
 </body>
 </html>
